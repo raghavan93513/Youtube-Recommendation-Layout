@@ -1,0 +1,43 @@
+* {
+    /*To find font style go to the youtube recommendation - right click - inspect - click on left top corner option - 
+    hover over the text and click - on the right window go to Style tab - search for font-family - copy command*/
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .reccomendation {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .info {
+    width: 250px;
+  }
+
+  .view-info {
+    display: flex;
+  }
+  
+  .preview {
+    /*Parent class of timestamp (ie preview) should be relative to place timestamp on it */
+    position: relative;
+    margin-right: 0.5rem;
+  }
+  
+  .timestamp {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: black;
+    color: white;
+    padding: 0.15rem;
+    border-radius: 0.25rem;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .username {
+    font-size: 1.1rem;
+  }
